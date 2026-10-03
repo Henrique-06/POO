@@ -1,3 +1,6 @@
+package batExercitos;
+
+import java.util.ArrayList;
 
 public class Jogador{
     private String nome;

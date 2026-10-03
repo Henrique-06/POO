@@ -1,9 +1,13 @@
-public class Cavalaria extends Arma{
+package batExercitos;
+
+public class Catapulta extends Arma{
     private int custo = 100;
     public int getCusto(){
         return this.custo;
     }
     public boolean ganhaQuandoAtacadoPor(Arma atacante){
-        return atacante instanceof Catapulta;
+        return atacante instanceof Cavalaria;
     }
+    
+
 }

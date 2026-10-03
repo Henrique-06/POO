@@ -1,4 +1,6 @@
-public static class AdiconarExercito{
+package batExercitos;
+
+public class AdiconarExercito{
     public static void adicionarExercito(Jogador jogador, Arma arma, int custo){
         if (jogador.getDinheiro() < custo*arma.getCusto()){
             System.out.println("Dinheiro insuficiente para comprar a arma.");
