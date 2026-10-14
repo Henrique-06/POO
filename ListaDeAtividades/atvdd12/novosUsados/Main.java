@@ -4,18 +4,18 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
+        Scanner leitor = new Scanner(System.in);
 
         System.out.print("Modelo do carro: ");
-        String modelo = entrada.nextLine().trim();
+        String modelo = leitor.nextLine().trim();
         
         System.out.print("Preço do carro (tabela FIPE): ");
-        float preco = Float.parseFloat(entrada.nextLine().trim().replace(',', '.'));
+        float preco = Float.parseFloat(leitor.nextLine().trim().replace(',', '.'));
 
 		String tipo;
 		 do {
 	            System.out.print("Tipo do carro (novo ou usado): ");
-	            tipo = entrada.nextLine().trim().toLowerCase();
+	            tipo = leitor.nextLine().trim().toLowerCase();
 	        } while (!tipo.equals("novo") && !tipo.equals("usado"));
 		 
 	        Carro carro;
@@ -27,6 +27,6 @@ public class Main {
 	    System.out.println(carro);
         System.out.println("Valor a ser pago: R$ "+ carro.getPreco());
 
-
+        leitor.close();
 	}
 }
