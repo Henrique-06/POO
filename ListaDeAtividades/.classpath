@@ -10,5 +10,9 @@
 	<classpathentry kind="src" path="atvdd5"/>
 	<classpathentry kind="src" path="atvdd6"/>
 	<classpathentry kind="src" path="atvdd7"/>
+	<classpathentry kind="src" path="atvddonze"/>
+	<classpathentry kind="src" path="atvdd12"/>
+	<classpathentry kind="src" path="atvdd13"/>
+	<classpathentry kind="src" path="atvdd14"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
